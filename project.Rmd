@@ -1,0 +1,197 @@
+---
+title: 'Project'
+author: "Ndeyanta Jallow"
+date: "3/4/2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r data}
+library(readxl)
+data <- read_excel("FinalProjectData.xlsx")
+quantvars <-read_excel("quantvars.xlsx")
+testingdata <-read_excel("rdata.xlsx")
+attach(data)
+attach(quantvars)
+attach(testingdata)
+quantdata <- data.frame(data$peak_position,data$change,data$tempo,data$duration_ms,data$feature,data$lifetime,data$number_of_artists,data$single_vs_album) #gets quant variables
+pairs(quantdata,pch=21,cex=0.1) #makes matrix plot
+```
+
+```{r modelsummary}
+y=data$weeks_on_chart
+position = data$peak_position
+change = data$change
+tempo = data$tempo
+duration = data$duration_ms
+feature = data$feature
+lifetime = data$lifetime
+numartists = data$number_of_artists
+singleoralbum = data$single_vs_album
+#dummy variables for genre
+country = quantvars$D_c
+hiprap = quantvars$D_h
+misc = quantvars$D_m
+pop = quantvars$D_p
+#dummy variables for artist origination
+south = quantvars$D_s
+northeast = quantvars$D_ne
+midwest = quantvars$D_mw
+west = quantvars$D_w
+pacific = quantvars$D_pa
+entiremodel = lm(y~position+duration+feature+lifetime+numartists+singleoralbum+country+hiprap+misc+pop+south+northeast+midwest+west+pacific)
+summary(entiremodel)
+anova(entiremodel)
+
+#Assumption 1: E[residuals] = 0 
+hist(entiremodel$residuals) #histogram 
+mean(entiremodel$residuals) #mean of residuals 
+qqnorm(entiremodel$residuals)
+qqline(entiremodel$residuals)
+
+#Assumption 2: Normality 
+shapiro.test(entiremodel$residuals)
+
+#Assumption 3: Identical (constant) variance 
+plot(entiremodel$fitted.values,entiremodel$residuals)
+plot(1:150,entiremodel$residuals)
+
+```
+
+```{r stepwise}
+#Apply the stepwise regression and obtain the solution. 
+library(MASS)
+step<-stepAIC(entiremodel, direction="both")
+step$anova # display results
+stepwise = lm(y ~ position + country + hiprap + misc + pop +  south + northeast + midwest + west + pacific)
+summary(stepwise)
+anova(stepwise)
+```
+
+```{r backwards}
+#b. Apply the backward elimination and obtain the solution.
+step2<-stepAIC(model, direction="backward")
+step2$anova # display results
+backwards = lm(y ~ position + country + hiprap + misc + pop +  south + northeast + midwest + 
+west + pacific)
+summary(backwards)
+anova(backwards)
+```
+
+```{r best subsets}
+#c. Applythe best subsets regression and select a “best” model from the listof variables of this model.
+# All Subsets Regression
+library(leaps)
+leaps<-regsubsets(y~position+duration+feature+lifetime+numartists+singleoralbum+country+hiprap+misc+pop+south+northeast+midwest+west+pacific, nbest=2,data = testingdata,nvmax=10)# view results 
+summary(leaps)
+
+subsets1 = lm(y ~ position + feature + lifetime + singleoralbum + country + hiprap + misc + pop + south + northeast + midwest + west + pacific)
+summary(subsets1)
+anova(subsets1)
+
+subsets2 =  lm(y ~ position + feature + singleoralbum + country + hiprap + misc + pop + south + northeast + midwest + west + pacific)
+summary(subsets2)
+anova(subsets2)
+```
+
+```{r best choice model out of all others}
+bestone = lm(y ~ position + country + hiprap + misc + pop +  south + northeast + midwest + west + pacific)
+summary(bestone)
+
+#Assumption 1: E[residuals] = 0 
+hist(bestone$residuals) #histogram 
+mean(bestone$residuals) #mean of residuals 
+qqnorm(bestone$residuals)
+qqline(bestone$residuals)
+
+#Assumption 2: Normality 
+shapiro.test(bestone$residuals)
+
+#Assumption 3: Identical (constant) variance 
+plot(bestone$fitted.values,bestone$residuals)
+plot(1:150,bestone$residuals)
+```
+
+```{r remove unusual variables}
+newdata <- read_excel("data_removed_unusualobs.xlsx")
+attach(newdata)
+
+newy=newdata$weeks_on_chart
+newposition = newdata$peak_position
+newchange = newdata$change
+newtempo = newdata$tempo
+newduration = newdata$duration_ms
+newfeature = newdata$feature
+newlifetime = newdata$lifetime
+newnumartists = newdata$number_of_artists
+newsingleoralbum = newdata$single_vs_album
+#dummy variables for genre
+newcountry = newdata$D_c
+newhiprap = newdata$D_h
+newmisc = newdata$D_m
+newpop = newdata$D_p
+#dummy variables for artist origination
+newsouth = newdata$D_s
+newnortheast = newdata$D_ne
+newmidwest = newdata$D_mw
+newwest = newdata$D_w
+newpacific = newdata$D_pa
+
+removedobs_bestone = lm(newy ~ newposition + newcountry + newhiprap + newmisc + newpop +  newsouth + newnortheast + newmidwest + newwest + newpacific)
+
+#Assumption 1: E[residuals] = 0 
+hist(removedobs_bestone$residuals) #histogram 
+mean(removedobs_bestone$residuals) #mean of residuals 
+qqnorm(removedobs_bestone$residuals)
+qqline(removedobs_bestone$residuals)
+
+#Assumption 2: Normality 
+shapiro.test(removedobs_bestone$residuals)
+
+#Assumption 3: Identical (constant) variance 
+plot(removedobs_bestone$fitted.values,removedobs_bestone$residuals)
+plot(1:140,removedobs_bestone$residuals)
+```
+
+```{r change included}
+bestone_andchange = lm(newy ~ newposition + newcountry + newhiprap + newmisc + newpop +  newsouth + newnortheast + newmidwest + newwest + newpacific +newchange)
+summary(bestone_andchange)
+anova(bestone_andchange)
+
+#Assumption 1: E[residuals] = 0 
+hist(bestone_andchange$residuals) #histogram 
+mean(bestone_andchange$residuals) #mean of residuals 
+qqnorm(bestone_andchange$residuals)
+qqline(bestone_andchange$residuals)
+
+#Assumption 2: Normality 
+shapiro.test(bestone_andchange$residuals)
+
+#Assumption 3: Identical (constant) variance 
+plot(bestone_andchange$fitted.values,bestone_andchange$residuals)
+plot(1:140,bestone_andchange$residuals)
+```
+
+```{r change included and ln transformation}
+transformed_bestone_andchange = lm(log(newy) ~ newposition + newcountry + newhiprap + newmisc + newpop +  newsouth + newnortheast + newmidwest + newwest + newpacific +newchange)
+summary(transformed_bestone_andchange)
+anova(transformed_bestone_andchange)
+
+#Assumption 1: E[residuals] = 0 
+hist(transformed_bestone_andchange$residuals) #histogram 
+mean(transformed_bestone_andchange$residuals) #mean of residuals 
+qqnorm(transformed_bestone_andchange$residuals)
+qqline(transformed_bestone_andchange$residuals)
+
+#Assumption 2: Normality 
+shapiro.test(transformed_bestone_andchange$residuals)
+
+#Assumption 3: Identical (constant) variance 
+plot(transformed_bestone_andchange$fitted.values,transformed_bestone_andchange$residuals)
+plot(1:140,transformed_bestone_andchange$residuals)
+```
+
+

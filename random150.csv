@@ -1,0 +1,206 @@
+Number,Title,ProjectData2018Number,weeks,artist,peak_pos,change,genre,tempo,duration_ms,,,number,title,artist
+1,Overnight,145,1,Logic,68,New,"[u'conscious hip hop', u'hip hop', u'pop rap', u'rap']",149.987,217560,,,1,All Girls Are The Same,Juice WRLD
+2,Over Now,82,3,Post Malone,24,-25,"[u'pop', u'rap']",163.898,246987,,,2,All Mine,Kanye West
+3,No Smoke,127,18,YoungBoy Never Broke Again,61,-8,[u'trap music'],143.966,160000,,,3,Back To You,Selena Gomez
+4,Money Bag,117,2,Cardi B,58,-29,"[u'pop', u'rap']",129.977,229005,,,4,Be Careful,Cardi B
+5,All Girls Are The Same,1,5,Juice WRLD,41,8,[u'rap'],161.989,165820,,,5,Beautiful Crazy,Luke Combs
+6,Marry Me,116,20,Thomas Rhett,30,-1,"[u'contemporary country', u'country', u'country road', u'modern country rock']",85.008,205453,,,6,Better Now,Post Malone
+7,The Long Way,103,12,Brett Eldredge,65,-20,"[u'contemporary country', u'country', u'country road', u'modern country rock']",88.865,208720,,,7,Boo'd Up,Ella Mai
+8,Paramedic!,148,4,SOB X RBE,65,-16,"[u'trap music', u'vapor trap']",97.017,219307,,,8,Call Out My Name,The Weeknd
+9,Break Up In The End,150,1,Cole Swindell,98,New,"[u'contemporary country', u'country', u'country road', u'modern country rock']",86.36,199436,,,9,Chun-Li,Nicki Minaj
+10,Preach,91,1,YoungBoy Never Broke Again,98,New,[u'trap music'],155.049,236071,,,10,Cudi Montage,KIDS SEE GHOSTS
+11,Lost In Japan,136,1,Shawn Mendes,64,New,"[u'canadian pop', u'pop', u'viral pop']",105.038,201200,,,11,Delicate,Taylor Swift
+12,Perfect,40,42,Ed Sheeran,1,4,[u'pop'],94.992,259550,,,12,Dura,Daddy Yankee
+13,Nice For What,36,10,Drake,1,1,"[u'canadian hip hop', u'canadian pop', u'hip hop', u'pop rap', u'rap']",93.35,210926,,,13,Esskeetit,Lil Pump
+14,Violent Crimes,48,2,Kanye West,27,-58,"[u'pop rap', u'rap']",110.111,215320,,,14,Fake Love,BTS
+15,"Freeee (Ghost Town, Pt. 2)",17,1,KIDS SEE GHOSTS,62,New,"[u'hip hop', u'pop', u'pop rap', u'rap']",151.643,206605,,,15,Feel The Love,KIDS SEE GHOSTS
+16,Zombie,55,14,Bad Wolves,54,0,[u'alternative metal'],77.093,254805,,,16,Fire,KIDS SEE GHOSTS
+17,Sick Boy,169,3,The Chainsmokers,65,-7,"[u'edm', u'electropop', u'pop', u'tropical house']",101.883,223147,,,17,"Freeee (Ghost Town, Pt. 2)",KIDS SEE GHOSTS
+18,I Like Me Better,21,18,Lauv,46,7,"[u'electropop', u'pop']",91.97,197437,,,18,Get Along,Kenny Chesney
+19,Shape Of You,160,59,Ed Sheeran,1,0,[u'pop'],95.977,233713,,,19,God's Plan,Drake
+20,Try Me,124,2,The Weeknd,26,-48,"[u'canadian pop', u'pop', u'rap']",91.673,221107,,,20,Heaven,Kane Brown
+21,The Christmas Song (Merry Christmas To You),204,12,Nat King Cole,37,-5,"[u'adult standards', u'christmas', u'lounge', u'soul', u'vocal jazz']",139.208,188933,,,21,I Like Me Better,Lauv
+22,KOD,29,8,J. Cole,10,-5,"[u'conscious hip hop', u'pop', u'pop rap', u'rap']",141.869,191437,,,22,I Lived It,Blake Shelton
+23,Tempo,131,4,Chris Brown,88,4,"[u'dance pop', u'pop', u'pop rap', u'r&b', u'rap']",120.959,218744,,,23,I Was Jack (You Were Diane),Jake Owen
+24,Rich & Sad,62,6,Post Malone,14,-9,"[u'pop', u'rap']",151.952,206453,,,24,I'm Upset,Drake
+25,Infrared,66,1,Pusha T,65,New,"[u'dirty south rap', u'gangster rap', u'hip hop', u'pop', u'pop rap', u'rap', u'southern hip hop', u'trap music']",112.265,170240,,,25,IDGAF,Dua Lipa
+26,My Dawg,182,7,Lil Baby,71,-7,"[u'pop', u'rap', u'southern hip hop', u'trap music']",133.029,317701,,,26,In My Blood,Shawn Mendes
+27,One Foot,159,8,WALK THE MOON,65,-11,"[u'indie pop', u'indie poptimism', u'indietronica', u'modern rock', u'pop']",100.018,261372,,,27,Japan,Famous Dex
+28,Let Me,115,1,Zayn,73,New,"[u'dance pop', u'pop', u'post-teen pop']",168.419,185703,,,28,KIDS SEE GHOSTS,KIDS SEE GHOSTS
+29,Plug Walk,41,18,Rich The Kid,13,2,"[u'pop', u'pop rap', u'rap', u'southern hip hop', u'trap music']",94.978,276659,,,29,KOD,J. Cole
+30,Sit Next To Me,45,13,Foster The People,56,8,"[u'indie pop', u'indietronica', u'la indie', u'modern rock']",97.021,243147,,,30,Lose It,Kane Brown
+31,Yours,155,20,Russell Dickerson,49,-5,"[u'contemporary country', u'country', u'country road', u'modern country rock']",134.058,216960,,,31,Lucid Dreams,Juice WRLD
+32,For The First Time,63,10,Darius Rucker,58,-23,"[u'contemporary country', u'country', u'country road', u'modern country rock']",142.016,197053,,,32,Mercy,Brett Young
+33,Back To You,3,5,Selena Gomez,22,9,"[u'dance pop', u'pop', u'post-teen pop']",102.061,207905,,,33,Mine,Bazzi
+34,Feel The Love,15,1,KIDS SEE GHOSTS,47,New,"[u'hip hop', u'pop', u'pop rap', u'rap']",110.573,165053,,,34,Never Be The Same,Camila Cabello
+35,Youngblood,54,2,5 Seconds Of Summer,79,17,"[u'boy band', u'pop', u'post-teen pop']",120.274,203418,,,35,New Rules,Dua Lipa
+36,Whatever It Takes,50,20,Imagine Dragons,12,1,"[u'modern rock', u'vegas indie']",134.945,201240,,,36,Nice For What,Drake
+37,Change Lanes,70,1,Kevin Gates,68,New,"[u'hip hop', u'pop rap', u'rap', u'southern hip hop', u'trap music']",130.195,205861,,,37,No Tears Left To Cry,Ariana Grande
+38,Candy Paint,93,21,Post Malone,34,Re-Entry,"[u'pop', u'rap']",180.024,227533,,,38,One Number Away,Luke Combs
+39,Be Careful,4,11,Cardi B,11,2,"[u'pop', u'rap']",152.279,210787,,,39,Overdose,YoungBoy Never Broke Again
+40,KIDS SEE GHOSTS,28,1,KIDS SEE GHOSTS,73,New,"[u'hip hop', u'pop', u'pop rap', u'rap']",100.051,324674,,,40,Perfect,Ed Sheeran
+41,Blame It On Me,88,2,Post Malone,47,-46,"[u'pop', u'rap']",121.838,261800,,,41,Plug Walk,Rich The Kid
+42,Call Out My Name,8,11,The Weeknd,4,-2,"[u'canadian pop', u'pop', u'rap']",134.144,228373,,,42,Reborn,KIDS SEE GHOSTS
+43,Auto Pilot,171,1,Migos,85,New,"[u'pop', u'rap', u'trap music']",129.987,287992,,,43,Simple,Florida Georgia Line
+44,Cry Pretty,81,3,Carrie Underwood,48,Re-Entry,"[u'contemporary country', u'country', u'country dawn', u'dance pop', u'pop', u'post-teen pop']",140.299,246467,,,44,Singles You Up,Jordan Davis
+45,Bickenhead,109,2,Cardi B,43,-25,"[u'pop', u'rap']",155.938,181624,,,45,Sit Next To Me,Foster The People
+46,Written In The Sand,132,20,Old Dominion,51,-2,"[u'contemporary country', u'country road']",83.985,184080,,,46,Tequila,Dan + Shay
+47,No Name,184,1,NF,82,New,[u'hip hop'],130.947,183827,,,47,This Is America,Childish Gambino
+48,What About Us,194,22,P!nk,13,5,"[u'dance pop', u'pop', u'post-teen pop', u'r&b']",113.617,269600,,,48,Violent Crimes,Kanye West
+49,Say Amen (Saturday Night),130,2,Panic! At The Disco,60,-26,"[u'emo', u'modern rock', u'pop punk', u'vegas indie']",167.965,189187,,,49,Wait,Maroon 5
+50,...Ready For It?,185,20,Taylor Swift,4,-16,"[u'dance pop', u'pop', u'post-teen pop']",160.015,208187,,,50,Whatever It Takes,Imagine Dragons
+51,Bad At Love,108,33,Halsey,5,-2,"[u'dance pop', u'electropop', u'etherpop', u'indie poptimism', u'pop', u'post-teen pop']",118.384,181279,,,51,"Woman, Amen",Dierks Bentley
+52,Must've Never Met You,59,1,Luke Combs,81,New,"[u'contemporary country', u'country road']",75.218,198880,,,52,Yikes,Kanye West
+53,92 Explorer,80,3,Post Malone,40,-29,"[u'pop', u'rap']",146.03,211427,,,53,You Make It Easy,Jason Aldean
+54,Wait,49,22,Maroon 5,24,-3,[u'pop'],126.088,190643,,,54,Youngblood,5 Seconds Of Summer
+55,The Race,205,20,Tay-K,44,4,"[u'rap', u'trap music', u'underground hip hop', u'vapor trap']",160.223,140000,,,55,Zombie,Bad Wolves
+56,Light It Up,192,19,Luke Bryan,57,4,"[u'contemporary country', u'country', u'country road']",130.024,177306,,,56,Africa,Weezer
+57,Gang Gang,174,1,Migos,73,New,"[u'pop', u'rap', u'trap music']",180.046,181319,,,57,I Thought About Killing You,Kanye West
+58,Barbie Tingz,87,4,Nicki Minaj,25,Re-Entry,"[u'dance pop', u'hip pop', u'pop', u'pop rap', u'rap']",102.414,191700,,,58,Lust,Lil Skies
+59,Japan,27,12,Famous Dex,28,-4,"[u'drill', u'pop', u'pop rap', u'rap', u'southern hip hop', u'trap music', u'underground hip hop']",175.985,142000,,,59,Must've Never Met You,Luke Combs
+60,The Games We Play,68,1,Pusha T,100,New,"[u'dirty south rap', u'gangster rap', u'hip hop', u'pop', u'pop rap', u'rap', u'southern hip hop', u'trap music']",78.033,166120,,,60,No Mistakes,Kanye West
+61,Fake Love,14,4,BTS,10,-23,[u'k-pop'],77.501,242334,,,61,Paranoid,Post Malone
+62,Filthy,163,6,Justin Timberlake,9,-56,"[u'dance pop', u'pop']",97.002,293947,,,62,Rich & Sad,Post Malone
+63,Supastars,177,1,Migos,53,New,"[u'pop', u'rap', u'trap music']",75.944,293138,,,63,For The First Time,Darius Rucker
+64,This Is America,47,6,Childish Gambino,1,-5,"[u'hip hop', u'pop rap', u'rap']",120.024,225773,,,64,High Hopes,Panic! At The Disco
+65,Let You Down,101,28,NF,12,-12,[u'hip hop'],148.066,212120,,,65,If You Know You Know,Pusha T
+66,High Hopes,64,1,Panic! At The Disco,98,New,"[u'emo', u'modern rock', u'pop punk', u'vegas indie']",82.014,190947,,,66,Infrared,Pusha T
+67,Believer,172,52,Imagine Dragons,4,-1,"[u'modern rock', u'vegas indie']",124.949,204347,,,67,Most People Are Good,Luke Bryan
+68,Overdose,39,7,YoungBoy Never Broke Again,42,-5,[u'trap music'],90.015,176990,,,68,The Games We Play,Pusha T
+69,Greatest Love Story,180,21,LANCO,45,6,[u'contemporary country'],147.986,222573,,,69,ATM,J. Cole
+70,Outside Today,77,19,YoungBoy Never Broke Again,31,-17,[u'trap music'],134.068,129105,,,70,Change Lanes,Kevin Gates
+71,OKRA,128,1,"Tyler, The Creator",89,New,"[u'hip hop', u'rap']",136.203,151027,,,71,Don't Go Breaking My Heart,Backstreet Boys
+72,Sugar Wraith,97,1,Post Malone,57,New,"[u'pop', u'rap']",164.079,228147,,,72,Downtown's Dead,Sam Hunt
+73,Wake Me Up!,106,54,Avicii,4,Re-Entry,"[u'big room', u'edm']",124.102,247427,,,73,Kevin's Heart,J. Cole
+74,Mine,33,21,Bazzi,11,8,"[u'pop', u'post-teen pop']",142.929,131064,,,74,Let It Sing,Kevin Gates
+75,I Could Use A Love Song,188,21,Maren Morris,56,6,[u'contemporary country'],92.097,196422,,,75,Like That,Kris Wu
+76,Rockin' Around The Christmas Tree,202,22,Brenda Lee,14,-6,"[u'adult standards', u'brill building pop', u'christmas', u'easy listening', u'lounge', u'nashville sound', u'rockabilly']",139.752,125827,,,76,No Excuses,Meghan Trainor
+77,Black Panther,162,1,Kendrick Lamar,91,New,"[u'conscious hip hop', u'hip hop', u'pop rap', u'rap', u'west coast rap']",96.924,232187,,,77,Outside Today,YoungBoy Never Broke Again
+78,Dura,12,19,Daddy Yankee,43,1,"[u'latin', u'latin hip hop', u'pop', u'reggaeton', u'tropical']",94.981,242160,,,78,Southside,Lil Baby
+79,Everybody Hates Me,139,1,The Chainsmokers,100,New,"[u'edm', u'electropop', u'pop', u'tropical house']",154.801,224027,,,79,Stay,Post Malone
+80,Round Here Buzz,176,19,Eric Church,56,-9,"[u'contemporary country', u'country', u'country road', u'modern country rock']",76.078,214627,,,80,92 Explorer,Post Malone
+81,Tell Me You Love Me,123,20,Demi Lovato,53,-7,"[u'dance pop', u'pop', u'post-teen pop']",82.142,236987,,,81,Cry Pretty,Carrie Underwood
+82,One Number Away,38,13,Luke Combs,34,0,"[u'contemporary country', u'country road']",144.075,221800,,,82,Over Now,Post Malone
+83,I Lived It,22,15,Blake Shelton,64,0,"[u'contemporary country', u'country', u'country road', u'modern country rock']",80.981,219600,,,83,Stir Fry,Migos
+84,Lose It,30,1,Kane Brown,84,New,"[u'contemporary country', u'country road']",91.988,178733,,,84,Takin' Shots,Post Malone
+85,All Mine,2,2,Kanye West,11,-20,"[u'pop rap', u'rap']",122.099,145507,,,85,When We,Tank
+86,Gucci Gang,157,24,Lil Pump,3,-5,[u'trap music'],119.889,124056,,,86,Zack And Codeine,Post Malone
+87,Broken Halos,121,20,Chris Stapleton,45,-18,[u'contemporary country'],78.341,180907,,,87,Barbie Tingz,Nicki Minaj
+88,Broken Clocks,110,4,SZA,82,0,"[u'hip hop', u'indie r&b', u'pop', u'pop rap', u'r&b', u'rap']",112.856,231253,,,88,Blame It On Me,Post Malone
+89,Never Be The Same,34,26,Camila Cabello,6,-1,"[u'dance pop', u'pop', u'post-teen pop']",129.923,226973,,,89,Diamond Teeth Samurai,YoungBoy Never Broke Again
+90,Beautiful Trauma,125,15,P!nk,78,-9,"[u'dance pop', u'pop', u'post-teen pop', u'r&b']",113.617,269600,,,90,Otherside,Post Malone
+91,ATM,69,5,J. Cole,6,-26,"[u'conscious hip hop', u'pop', u'pop rap', u'rap']",81.651,216727,,,91,Preach,YoungBoy Never Broke Again
+92,Motiv8,95,2,J. Cole,15,-56,"[u'conscious hip hop', u'pop', u'pop rap', u'rap']",149.897,133922,,,92,1985 (Intro To The Fall Off),J. Cole
+93,Betrayed,134,20,Lil Xan,64,-1,[u'underground hip hop'],119.958,187453,,,93,Candy Paint,Post Malone
+94,Five More Minutes,111,20,Scotty McCreery,44,-9,"[u'contemporary country', u'country', u'country road', u'modern country rock']",156.07,238954,,,94,Jonestown (Interlude),Post Malone
+95,Diplomatic Immunity,165,3,Drake,7,-28,"[u'canadian hip hop', u'canadian pop', u'hip hop', u'pop rap', u'rap']",74.886,255867,,,95,Motiv8,J. Cole
+96,IDGAF,25,22,Dua Lipa,49,3,[u'pop'],97.028,217947,,,96,Photograph,J. Cole
+97,How Long,140,24,Charlie Puth,21,-10,"[u'pop', u'post-teen pop', u'viral pop']",109.974,200853,,,97,Sugar Wraith,Post Malone
+98,Higher We Go (Intro),175,1,Migos,83,New,"[u'pop', u'rap', u'trap music']",152.001,255849,,,98,Brackets,J. Cole
+99,Otherside,90,2,Post Malone,46,-43,"[u'pop', u'rap']",104.931,228227,,,99,Feel It Still,Portugal. The Man
+100,All I Want For Christmas Is You,196,24,Mariah Carey,9,-4,"[u'dance pop', u'hip pop', u'pop', u'r&b', u'urban contemporary']",150.277,241107,,,100,Intro,J. Cole
+101,I Fall Apart,114,30,Post Malone,16,0,"[u'pop', u'rap']",143.95,223347,,,101,Let You Down,NF
+102,Fire,16,1,KIDS SEE GHOSTS,67,New,"[u'hip hop', u'pop', u'pop rap', u'rap']",104.999,140527,,,102,Once An Addict (Interlude),J. Cole
+103,Yikes,52,2,Kanye West,8,-32,"[u'pop rap', u'rap']",173.931,188773,,,103,The Long Way,Brett Eldredge
+104,Never Enough,183,4,Loren Allred,88,1,"[u'deep talent show', u'hollywood', u'movie tunes']",86.777,207787,,,104,Thru Your Phone,Cardi B
+105,Thru Your Phone,104,3,Cardi B,50,-24,"[u'pop', u'rap']",121.954,188524,,,105,Thunder,Imagine Dragons
+106,A Holly Jolly Christmas,195,5,Burl Ives,38,-8,[u'christmas'],140.352,135533,,,106,Wake Me Up!,Avicii
+107,Female,156,6,Keith Urban,69,Re-Entry,"[u'australian country', u'contemporary country', u'country', u'country road']",85.019,195317,,,107,Window Pain (Outro),J. Cole
+108,Intro,100,1,J. Cole,53,New,"[u'conscious hip hop', u'pop', u'pop rap', u'rap']",94.336,190177,,,108,Bad At Love,Halsey
+109,Bodak Yellow (Money Moves),149,35,Cardi B,1,-7,"[u'pop', u'rap']",124.982,220395,,,109,Bickenhead,Cardi B
+110,A Girl Like You,164,1,Easton Corbin,98,New,"[u'contemporary country', u'country', u'country road', u'modern country rock']",104.989,217840,,,110,Broken Clocks,SZA
+111,Losing Sleep,167,20,Chris Young,60,-11,"[u'contemporary country', u'country', u'country road', u'modern country rock']",92.003,178253,,,111,Five More Minutes,Scotty McCreery
+112,Saint,203,1,Huncho Jack,92,New,"[u'pop', u'pop rap', u'rap', u'southern hip hop', u'trap music', u'vapor trap']",150.06,140793,,,112,Get Up 10,Cardi B
+113,In My Blood,26,13,Shawn Mendes,11,4,"[u'canadian pop', u'pop', u'viral pop']",139.967,211360,,,113,Hardaway,Derez De'Shon
+114,Stay,79,4,Post Malone,17,-23,"[u'pop', u'rap']",85.913,204427,,,114,I Fall Apart,Post Malone
+115,I'm Upset,24,3,Drake,19,4,"[u'canadian hip hop', u'canadian pop', u'hip hop', u'pop rap', u'rap']",149.953,214139,,,115,Let Me,Zayn
+116,Takin' Shots,84,3,Post Malone,29,-30,"[u'pop', u'rap']",120.092,216747,,,116,Marry Me,Thomas Rhett
+117,All On Me,120,20,Devin Dawson,52,-18,"[u'contemporary country', u'modern country rock']",80.989,224627,,,117,Money Bag,Cardi B
+118,You Broke Up With Me,154,19,Walker Hayes,62,-10,"[u'contemporary country', u'country', u'country road', u'modern country rock']",120.013,197840,,,118,She's With Me,High Valley
+119,Delicate,11,14,Taylor Swift,25,12,"[u'dance pop', u'pop', u'post-teen pop']",95.045,232253,,,119,Wasted Times,The Weeknd
+120,Legends,158,12,Kelsea Ballerini,68,-19,"[u'contemporary country', u'indonesian jazz', u'pop']",112.029,243427,,,120,All On Me,Devin Dawson
+121,Photograph,96,2,J. Cole,14,-66,"[u'conscious hip hop', u'pop', u'pop rap', u'rap']",105.05,218954,,,121,Broken Halos,Chris Stapleton
+122,Mercy,32,6,Brett Young,63,11,[u'contemporary country'],71.957,217120,,,122,Medicine,Queen Naija
+123,Yuck,147,1,Logic,87,New,"[u'conscious hip hop', u'hip hop', u'pop rap', u'rap']",155.864,173693,,,123,Tell Me You Love Me,Demi Lovato
+124,Downtown's Dead,72,1,Sam Hunt,98,New,[u'contemporary country'],82.001,213987,,,124,Try Me,The Weeknd
+125,You Make It Easy,53,20,Jason Aldean,28,1,"[u'contemporary country', u'country', u'country road']",132.025,196800,,,125,Beautiful Trauma,P!nk
+126,Booty,135,5,Blac Youngsta,73,-4,"[u'dwn trap', u'rap', u'southern hip hop', u'trap music']",144.005,160038,,,126,Focus,H.E.R.
+127,Heaven,20,25,Kane Brown,15,4,"[u'contemporary country', u'country road']",80.009,179507,,,127,No Smoke,YoungBoy Never Broke Again
+128,I Thought About Killing You,57,1,Kanye West,28,New,"[u'pop rap', u'rap']",116.064,274187,,,128,OKRA,"Tyler, The Creator"
+129,Better Now,6,7,Post Malone,7,14,"[u'pop', u'rap']",145.028,231267,,,129,Privilege,The Weeknd
+130,Rock,152,5,Plies,95,-5,"[u'dance pop', u'dirty south rap', u'gangster rap', u'hip hop', u'pop rap', u'r&b', u'rap', u'southern hip hop', u'trap music']",61.115,174653,,,130,Say Amen (Saturday Night),Panic! At The Disco
+131,BoomTrap Protocol,142,1,Logic,97,New,"[u'conscious hip hop', u'hip hop', u'pop rap', u'rap']",77.047,221360,,,131,Tempo,Chris Brown
+132,Hardaway,113,11,Derez De'Shon,61,-16,"[u'deep trap', u'trap music']",132.527,236032,,,132,Written In The Sand,Old Dominion
+133,Juice,189,6,Yo Gotti,90,-10,"[u'dirty south rap', u'dwn trap', u'gangster rap', u'hip hop', u'memphis hip hop', u'pop', u'pop rap', u'rap', u'southern hip hop', u'trap music']",162.038,149242,,,133,44 More,Logic
+134,Africa,56,1,Weezer,89,New,"[u'alternative rock', u'modern rock', u'permanent wave', u'pop punk', u'pop rock', u'post-grunge', u'rock']",92.223,238148,,,134,Betrayed,Lil Xan
+135,It's The Most Wonderful Time Of The Year,199,5,Andy Williams,32,-6,"[u'adult standards', u'brill building pop', u'christmas', u'easy listening', u'lounge', u'mellow gold', u'operatic pop']",202.082,151933,,,135,Booty,Blac Youngsta
+136,Once An Addict (Interlude),102,1,J. Cole,47,New,"[u'conscious hip hop', u'pop', u'pop rap', u'rap']",82.36,197822,,,136,Lost In Japan,Shawn Mendes
+137,Chun-Li,9,10,Nicki Minaj,10,3,"[u'dance pop', u'hip pop', u'pop', u'pop rap', u'rap']",97.092,191606,,,137,Narcos,Migos
+138,Man Of The Woods,168,1,Justin Timberlake,73,New,"[u'dance pop', u'pop']",97.04,278893,,,138,Rubbin Off The Paint,YBN Nahmir
+139,Midnight,144,1,Logic,74,New,"[u'conscious hip hop', u'hip hop', u'pop rap', u'rap']",95.032,241427,,,139,Everybody Hates Me,The Chainsmokers
+140,44 More,133,5,Logic,22,-15,"[u'conscious hip hop', u'hip hop', u'pop rap', u'rap']",139.971,188600,,,140,How Long,Charlie Puth
+141,God's Plan,19,21,Drake,1,1,"[u'canadian hip hop', u'canadian pop', u'hip hop', u'pop rap', u'rap']",77.169,198973,,,141,Young Dumb & Broke,Khalid
+142,Make Me Feel,151,1,Janelle Monae,99,New,"[u'dance pop', u'electropop', u'indie r&b', u'neo soul', u'pop', u'r&b']",115.035,194230,,,142,BoomTrap Protocol,Logic
+143,Let It Sing,74,1,Kevin Gates,82,New,"[u'hip hop', u'pop rap', u'rap', u'southern hip hop', u'trap music']",144.964,195456,,,143,Contra,Logic
+144,That's What I Like,190,52,Bruno Mars,1,-6,"[u'dance pop', u'pop', u'post-teen pop']",134.066,206693,,,144,Midnight,Logic
+145,When We,85,20,Tank,78,6,"[u'dance pop', u'deep pop r&b', u'r&b', u'urban contemporary']",117.747,280678,,,145,Overnight,Logic
+146,Feel It Still,99,45,Portugal. The Man,4,-11,"[u'modern rock', u'neo-psychedelic']",79.028,163253,,,146,Sorry Not Sorry,Demi Lovato
+147,Don't Go Breaking My Heart,71,1,Backstreet Boys,99,New,"[u'boy band', u'dance pop', u'europop', u'pop']",94.858,215724,,,147,Yuck,Logic
+148,Beautiful Crazy,5,4,Luke Combs,58,-16,"[u'contemporary country', u'country road']",103.313,193200,,,148,Paramedic!,SOB X RBE
+149,I Was Jack (You Were Diane),23,3,Jake Owen,86,0,"[u'contemporary country', u'country', u'country road', u'modern country rock']",94.014,188013,,,149,Bodak Yellow (Money Moves),Cardi B
+150,Cudi Montage,10,1,KIDS SEE GHOSTS,69,New,"[u'hip hop', u'pop', u'pop rap', u'rap']",110.011,197001,,,150,Break Up In The End,Cole Swindell
+,,,,,,,,,,,,151,Make Me Feel,Janelle Monae
+,,,,,,,,,,,,152,Rock,Plies
+,,,,,,,,,,,,153,Want You Back,5 Seconds Of Summer
+,,,,,,,,,,,,154,You Broke Up With Me,Walker Hayes
+,,,,,,,,,,,,155,Yours,Russell Dickerson
+,,,,,,,,,,,,156,Female,Keith Urban
+,,,,,,,,,,,,157,Gucci Gang,Lil Pump
+,,,,,,,,,,,,158,Legends,Kelsea Ballerini
+,,,,,,,,,,,,159,One Foot,WALK THE MOON
+,,,,,,,,,,,,160,Shape Of You,Ed Sheeran
+,,,,,,,,,,,,161,Too Good At Goodbyes,Sam Smith
+,,,,,,,,,,,,162,Black Panther,Kendrick Lamar
+,,,,,,,,,,,,163,Filthy,Justin Timberlake
+,,,,,,,,,,,,164,A Girl Like You,Easton Corbin
+,,,,,,,,,,,,165,Diplomatic Immunity,Drake
+,,,,,,,,,,,,166,Like I Loved You,Brett Young
+,,,,,,,,,,,,167,Losing Sleep,Chris Young
+,,,,,,,,,,,,168,Man Of The Woods,Justin Timberlake
+,,,,,,,,,,,,169,Sick Boy,The Chainsmokers
+,,,,,,,,,,,,170,Supplies,Justin Timberlake
+,,,,,,,,,,,,171,Auto Pilot,Migos
+,,,,,,,,,,,,172,Believer,Imagine Dragons
+,,,,,,,,,,,,173,Emoji A Chain,Migos
+,,,,,,,,,,,,174,Gang Gang,Migos
+,,,,,,,,,,,,175,Higher We Go (Intro),Migos
+,,,,,,,,,,,,176,Round Here Buzz,Eric Church
+,,,,,,,,,,,,177,Supastars,Migos
+,,,,,,,,,,,,178,Attention,Charlie Puth
+,,,,,,,,,,,,179,Bank Account,21 Savage
+,,,,,,,,,,,,180,Greatest Love Story,LANCO
+,,,,,,,,,,,,181,I'll Name The Dogs,Blake Shelton
+,,,,,,,,,,,,182,My Dawg,Lil Baby
+,,,,,,,,,,,,183,Never Enough,Loren Allred
+,,,,,,,,,,,,184,No Name,NF
+,,,,,,,,,,,,185,...Ready For It?,Taylor Swift
+,,,,,,,,,,,,186,My My My!,Troye Sivan
+,,,,,,,,,,,,187,The Weekend,SZA
+,,,,,,,,,,,,188,I Could Use A Love Song,Maren Morris
+,,,,,,,,,,,,189,Juice,Yo Gotti
+,,,,,,,,,,,,190,That's What I Like,Bruno Mars
+,,,,,,,,,,,,191,Too Much To Ask,Niall Horan
+,,,,,,,,,,,,192,Light It Up,Luke Bryan
+,,,,,,,,,,,,193,Look What You Made Me Do,Taylor Swift
+,,,,,,,,,,,,194,What About Us,P!nk
+,,,,,,,,,,,,195,A Holly Jolly Christmas,Burl Ives
+,,,,,,,,,,,,196,All I Want For Christmas Is You,Mariah Carey
+,,,,,,,,,,,,197,Black & Chinese,Huncho Jack
+,,,,,,,,,,,,198,Huncho Jack,Huncho Jack
+,,,,,,,,,,,,199,It's The Most Wonderful Time Of The Year,Andy Williams
+,,,,,,,,,,,,200,Modern Slavery,Huncho Jack
+,,,,,,,,,,,,201,Motorcycle Patches,Huncho Jack
+,,,,,,,,,,,,202,Rockin' Around The Christmas Tree,Brenda Lee
+,,,,,,,,,,,,203,Saint,Huncho Jack
+,,,,,,,,,,,,204,The Christmas Song (Merry Christmas To You),Nat King Cole
+,,,,,,,,,,,,205,The Race,Tay-K
