@@ -1,6 +1,6 @@
 ---
 title: 'Project'
-author: "Ndeyanta Jallow"
+author: "Christian Hughey"
 date: "3/4/2019"
 output: word_document
 ---
